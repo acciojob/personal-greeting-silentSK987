@@ -19,7 +19,7 @@ class Container extends Component {
       <>
       <p>Enter your name: </p>
         <input value={this.state.value} onChange={this.onChangeText} />
-        {this.state.value?<p>Hello {this.state.value}! </p> : null} 
+        <p>{this.state.value?<p>Hello {this.state.value}! </p> : null} </p>
       </>
     )
   }
